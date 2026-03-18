@@ -1,0 +1,23 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: white;
+}
+
+/* HEADER */
+header {
+  width: 18%;
+  background-color: gray;
+}
+
+/* CENTRO */
+.left {
+  width: 43%;
+  background-color: peachpuff;
+}
+
+/* DERECHA */
+.right {
+  width: 34%;
+  background-color: whitesmoke;
+}
