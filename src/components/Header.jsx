@@ -14,9 +14,7 @@ function Header() {
           <li><a href="#">Reflexión</a></li>
         </ul>
       </nav>
-      <div className="logo">
-        <img src="public/img/AvatarPortada.webp" width="100%" />
-      </div>
+
     </header>
   );
 }
