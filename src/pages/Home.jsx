@@ -1,7 +1,16 @@
 function Home() {
   return (
     <>
-      <div className="left">
+      <div className="center">
+        <div className="video">
+            <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/3hq7bDOCXLg"
+            title="YouTube video"
+            allowFullScreen
+        ></iframe>
+        </div>
         <h2>Sinopsis</h2>
         <p className="text">
           La Leyenda de Aang es una serie animada creada por Michael Dante DiMartino y 
@@ -21,7 +30,10 @@ function Home() {
       </div>
 
       <div className="right">
-        <img src="/img/avatarIndex.png" width="100%" />
+        <img src="/img/AngApa.jpg" width="100%" />
+        < p className="credits">
+        Glenda Gonzalez owo - Pinterest
+        </p>
       </div>
     </>
   );

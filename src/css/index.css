@@ -1,22 +1,18 @@
-
-header {
-    background-color: white;
-    width: 18%;
-}
-
-.left {
-    background-color: aqua;
-    width: 43%;
+/* LAYOUT */
+.center {
+  width: 52%;
+  background-color: peachpuff;
+  align-items: center;
 }
 
 .right {
-    background-color: blue;
-    width: 34%;
+  width: 30%;
 }
 
 .text {
-    background-color: red;
+    background-color: whitesmoke;
     padding: 20px;
+    width: 90%;
 }
 
 h2 {
@@ -24,13 +20,11 @@ h2 {
     margin-top: 20px;
 }
 
-/* MENU */
-ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
+.credits{
+  padding: 0%;
+  margin: 0%;
+  font-size: small;
+  background-color: whitesmoke;
 }
 
 /* LOGO */
@@ -43,7 +37,15 @@ ul li {
     margin-top: 10px;
 }
 
-/* MENU CONTENEDOR */
+/* MENU */
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
 .menu ul {
     display: flex;
     flex-direction: column;
@@ -52,7 +54,6 @@ ul li {
     margin-left: 21px;
 }
 
-/* LINKS */
 .menu a {
     text-decoration: none;
     color: white;
