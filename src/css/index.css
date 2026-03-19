@@ -1,30 +1,43 @@
 /* LAYOUT */
 .center {
   width: 52%;
-  background-color: peachpuff;
+  background-color: #393d42;
   align-items: center;
+  height: 100vh;
 }
 
 .right {
   width: 30%;
+  height: 100vh;
 }
 
+.video {
+  width: 100%;
+  max-width: 560px;
+  border: none;
+  display: block;
+  margin: 50px auto;
+  background-color: #393d42;
+}
+ 
 .text {
-    background-color: whitesmoke;
+    background-color: #232528;
+    color: white;
     padding: 20px;
     width: 90%;
+    margin-left: 20px;
 }
 
 h2 {
     margin-left: 20px;
     margin-top: 20px;
+    color: white;
 }
 
 .credits{
   padding: 0%;
   margin: 0%;
   font-size: small;
-  background-color: whitesmoke;
 }
 
 /* LOGO */
@@ -34,7 +47,7 @@ h2 {
 }
 
 ul li {
-    margin-top: 10px;
+    margin-top: 4px;
 }
 
 /* MENU */

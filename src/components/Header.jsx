@@ -15,6 +15,10 @@ function Header() {
         </ul>
       </nav>
 
+      <div className="logo">
+        <img src="public/img/Menu.jpg" width="100%" />
+      </div>
+
     </header>
   );
 }
