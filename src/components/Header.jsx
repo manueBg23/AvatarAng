@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <img src="/img/avatarLogo.webp" width="100%" />
+        <img src="/img/AvatarLogo.webp" width="100%" />
       </div>
 
       <nav className="menu">
