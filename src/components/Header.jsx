@@ -1,24 +1,26 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <header>
       <div className="logo">
-        <img src="public/img/avatarLogo.webp" width="100%" />
+        <img src="/img/avatarLogo.webp" width="100%" />
       </div>
 
       <nav className="menu">
         <ul>
-          <li><a href="#">Creadores</a></li>
-          <li><a href="#">Personajes</a></li>
-          <li><a href="#">Temporadas</a></li>
-          <li><a href="#">Peleas</a></li>
-          <li><a href="#">Reflexión</a></li>
+          <li><Link to="/home">Inicio</Link></li>
+          <li><Link to="/creators">Creadores</Link></li>
+          <li><Link to="/characters">Personajes</Link></li>
+          <li><Link to="/seasons">Temporadas</Link></li>
+          <li><Link to="/fights">Peleas</Link></li>
+          <li><Link to="/reflection">Reflexión</Link></li>
         </ul>
       </nav>
 
       <div className="logo">
-        <img src="public/img/Menu.jpg" width="100%" />
+        <img src="/img/Menu.jpg" width="100%" />
       </div>
-
     </header>
   );
 }
