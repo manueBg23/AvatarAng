@@ -1,13 +1,13 @@
 /* LAYOUT */
 .center {
-  width: 52%;
+  width: 64%;
   background-color: #393d42;
   align-items: center;
   height: 100vh;
 }
 
 .right {
-  width: 30%;
+  width: 36%;
   height: 100vh;
 }
 
