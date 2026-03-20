@@ -19,7 +19,7 @@ function Header() {
       </nav>
 
       <div className="logo">
-        <img src="/img/Menu.jpg" width="100%" />
+        <img src="/img/apaPortada.jpg" width="100%" />
       </div>
     </header>
   );
