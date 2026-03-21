@@ -11,6 +11,7 @@ function Header() {
         <ul>
           <li><Link to="/home">Inicio</Link></li>
           <li><Link to="/creators">Creadores</Link></li>
+          <li><Link to="/nations">Naciones</Link></li>
           <li><Link to="/characters">Personajes</Link></li>
           <li><Link to="/seasons">Temporadas</Link></li>
           <li><Link to="/fights">Peleas</Link></li>
@@ -19,7 +20,7 @@ function Header() {
       </nav>
 
       <div className="logo">
-        <img src="/img/apaPortada.jpg" width="100%" />
+        <img src="/img/apaPortada.jpg" width="85%" />
       </div>
     </header>
   );
