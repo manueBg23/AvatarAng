@@ -1,7 +1,7 @@
 /* LAYOUT */
 .center {
   width: 64%;
-  background-color: #393d42;
+  background-color: #545454;
   align-items: center;
   height: 100vh;
 }
@@ -17,15 +17,16 @@
   border: none;
   display: block;
   margin: 50px auto;
-  background-color: #393d42;
+  background-color: #545454;
 }
  
 .text {
-    background-color: #232528;
+    background-color: #3c3c3c;
     color: white;
     padding: 20px;
-    width: 90%;
-    margin-left: 20px;
+    width: 89%;
+    margin-left: 25px;
+    text-align: justify;
 }
 
 h2 {

@@ -1,7 +1,8 @@
 .center-reflection {
   width: 47%;
-  background-color: #BEBEBE;
+  background-color: #7a7a7a;
   height: 100vh;
+  color: aliceblue;
 
   display: flex;
   flex-direction: column;

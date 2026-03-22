@@ -1,6 +1,6 @@
 .center-creators {
   width: 50%;
-  background-color: #393d42;
+  background-color: #BEBEBE;
   height: 100vh;
 
   display: flex;
@@ -10,8 +10,8 @@
 
 .right-creators {
   width: 50%;
-  height: 100vh;
-  background-color: #232528;
+  height: 100vh;    
+  background-color: #949494;
   
   display: flex;
   flex-direction: column;
