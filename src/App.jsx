@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Home from "./pages/Home";
+import Reflection from "./pages/Reflection";
 import Creators from "./pages/Creators";
 import Characters from "./pages/Characters";
 import './css/App.css'
@@ -17,6 +18,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/creators" element={<Creators />} />
           <Route path="/characters" element={<Characters />} />
+          <Route path="/reflection" element={<Reflection />} />
         </Routes>
       </div>
     </div>
