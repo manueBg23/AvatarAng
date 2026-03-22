@@ -1,39 +1,89 @@
 function Creators() {
     return (
        <>
-      <div className="center">
-        <div className="video">
-            <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/3hq7bDOCXLg"
-            title="YouTube video"
-            allowFullScreen
-        ></iframe>
-        </div>
-        <h2>Sinopsis</h2>
-        <p className="text">
-          La Leyenda de Aang es una serie animada creada por Michael Dante DiMartino y 
-         Bryan Konietzko que combina acción, aventura y espiritualidad en un mundo dividido en cuatro naciones: 
-         Agua, Tierra, Fuego y Aire. La historia sigue a Aang, el último Maestro Aire y el Avatar, quien tiene la misión de 
-         dominar los cuatro elementos y restaurar el equilibrio del mundo tras cien años de guerra iniciada por la Nación del 
-         Fuego. A lo largo de su viaje, Aang y sus amigos Katara, Sokka y Toph enfrentan grandes desafíos, descubren el valor de 
-        la amistad y aprenden importantes lecciones sobre responsabilidad, destino y paz.
-        </p>
+      <div className="center-creators">
 
-        <h2>Disclaimer</h2>
-        <p className="text">
-        Esta página web no es un sitio oficial de Avatar: La Leyenda de Aang ni está afiliada a Nickelodeon o a sus 
-        creadores. Todo el contenido presentado tiene fines informativos y educativos, creado por un fan con el propósito de compartir 
-        información y admiración por la serie.
-        </p>
+         <img className="img-creators" src="/img/Bryan_Konietzko.jpg" width="48%" />
+        
+        <table>
+            <tbody>
+                <tr>
+                <th>Campo</th>
+                <th>Información</th>
+                </tr>
+                <tr>
+                <td>Nombre</td>
+                <td>Bryan Konietzko</td>
+                </tr>
+                <tr>
+                <td>Nacionalidad</td>
+                <td>Estadounidense</td>
+                </tr>
+                <tr>
+                <td>Fecha de nacimiento</td>
+                <td>1 de junio de 1975</td>
+                </tr>
+                <tr>
+                <td>Edad</td>
+                <td>50 años (aprox.)</td>
+                </tr>
+                <tr>
+                <td>Profesión</td>
+                <td>Diseñador, director de arte, productor</td>
+                </tr>
+                <tr>
+                <td>Series destacadas</td>
+                <td>Avatar: La leyenda de Aang, La leyenda de Korra</td>
+                </tr>
+                <tr>
+                <td>Rol en Avatar</td>
+                <td>Co-creador, director de arte</td>
+                </tr>
+            </tbody>
+        </table>
       </div>
 
-      <div className="right">
-        <img src="/img/AngApa.jpg" width="100%" />
-        < p className="credits">
-        Glenda Gonzalez owo - Pinterest
-        </p>
+      <div className="right-creators">
+
+        <img className="img-creators" src="/img/Michael_Dante.jpg" width="50%" />
+        
+        <table>
+            <tbody>
+                <tr>
+                <th>Campo</th>
+                <th>Información</th>
+                </tr>
+                <tr>
+                <td>Nombre</td>
+                <td>Michael Dante DiMartino</td>
+                </tr>
+                <tr>
+                <td>Nacionalidad</td>
+                <td>Estadounidense</td>
+                </tr>
+                <tr>
+                <td>Fecha de nacimiento</td>
+                <td>18 de julio de 1974</td>
+                </tr>
+                <tr>
+                <td>Edad</td>
+                <td>51 años (aprox.)</td>
+                </tr>
+                <tr>
+                <td>Profesión</td>
+                <td>Director, productor, guionista</td>
+                </tr>
+                <tr>
+                <td>Series destacadas</td>
+                <td>Avatar: La leyenda de Aang, La leyenda de Korra</td>
+                </tr>
+                <tr>
+                <td>Rol en Avatar</td>
+                <td>Co-creador, director creativo, guionista</td>
+                </tr>
+            </tbody>
+        </table>
+
       </div>
     </>
     );
