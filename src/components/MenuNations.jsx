@@ -2,15 +2,25 @@ import { Link } from "react-router-dom";
 
 function MenuNations() {
   return (
+    <div className="menu-nation">
+      <div className="contenedor_uno">
+        <Link to="/AirNation">
+          <img id="iNat" src="/img/Agua.png"  />
+        </Link>
+        <Link to="/EarthNation">
+          <img id="iNat" src="/img/Tierra.png" />
+        </Link>
+      </div>
 
-      <nav className="menu-nation">
-        <ul>
-          <li><Link to="/AirNation"><img src="/img/Agua.png" /></Link></li>
-          <li><Link to="/EarthNation"><img src="/img/Tierra.png" /></Link></li>
-          <li><Link to="/FireNation"><img src="/img/Fuego.png" /></Link></li>
-          <li><Link to="/WindNation"><img src="/img/Aire.png" /></Link></li>
-        </ul>
-      </nav>
+      <div className="contenedor_dos">
+        <Link to="/FireNation">
+          <img id="iNat" src="/img/Fuego.png" />
+        </Link>
+        <Link to="/WindNation">
+          <img id="iNat" src="/img/Aire.png"  />
+        </Link>
+      </div>
+    </div>
   );
 }
 
